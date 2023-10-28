@@ -1,3 +1,5 @@
+import json
+
 Produtos = {
     1:{
         "titulo": "rtx 3090",
@@ -47,3 +49,8 @@ Produtos = {
         "estoque": 2
     },
 }
+
+produtos_json = json.dumps(Produtos)
+
+# with open("produtos.json", "w") as arquivo_json:
+#     arquivo_json.write(produtos_json)
