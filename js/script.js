@@ -1,26 +1,46 @@
 const card = document.querySelectorAll('.home-item')
-const infoBox = document.querySelector('.info-box')
-const closeButton = document.querySelector('.close-button')
+const infoBoxes = document.querySelectorAll('.info-box')
+const closeButtons = document.querySelectorAll('.close-button')
+const product = document.querySelectorAll('.product')
+
+console.log(product)
 console.log(card)
 
 fetch('produtos.json')
-  .then((response) => response.json())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error('Erro na requisição fetch')
+    }
+    return response.json()
+  })
   .then((data) => {
-    let i = 1
+    let i = 0
     card.forEach((section) => {
-      const h2 = section.querySelector('h2')
-
-      if (h2) {
-        h2.textContent = data[i].titulo
+      const h3 = section.querySelector('h3')
+      const keys = Object.keys(data)
+      if (i < keys.length) {
+        const key = keys[i]
+        product[i].textContent = data[key].titulo
+        h3.textContent = data[key].titulo
         i++
-
-        h2.addEventListener('click', () => {
-          infoBox.classList.toggle('show')
-        })
       }
     })
   })
+  .catch((error) => {
+    console.error(error)
+  })
 
-closeButton.addEventListener('click', () => {
-  infoBox.classList.remove('show')
+product.forEach((element, index) => {
+  element.addEventListener('click', () => {
+    infoBoxes.forEach((box) => {
+      box.classList.remove('show')
+    })
+    infoBoxes[index].classList.add('show')
+  })
+})
+
+closeButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    infoBoxes[index].classList.remove('show')
+  })
 })
