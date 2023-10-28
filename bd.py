@@ -17,31 +17,31 @@ Produtos = {
         "preço_R$": 5000.00, 
         "estoque": 2
     },
-    4:{"titulo": "Corsair Vengeance Rgb RAM", 
+    4:{"titulo": "Memória DDR4 Corsair Vengeance RGB",
        "descrição": "DDR5 CL40 6800mhz 4x16gb", 
        "preço_R$": 2350.00, 
        "estoque": 4
     },
     5:{
-        "titulo": "Water Cooler Xpg", 
-        "descrição": "360mm", 
+        "titulo": "Water Cooler NZXT Kraken Elite 280",
+        "descrição": "280mm",
         "preço_R$": 5000.00, 
         "estoque": 2
     },
     6:{
-       "titulo": "Fonte Asus Rog Thor", 
+       "titulo": "Fonte XPG, Core Reactor, 650W",
        "descrição": "1600W", 
        "preço_R$": 5999.00, 
        "estoque": 8
     },
     7:{
-       "titulo": "Sabrent 8TB Rocket Q M.2", 
+       "titulo": "SSD Adata Legend 970, 2TB",
        "descrição": "PCIe 3.1 R3300MB/s W2900MB/s", 
        "preço_R$": 11309.99, 
        "estoque": 4
     },
     8:{
-        "titulo": "Cepheus VPRO49 Ultra", 
+        "titulo": "Monitor Gamer LG, 27 Pol",
         "descrição": "Monitor 1ms 144HZ 49pol", 
         "preço_R$": 5000.00, 
         "estoque": 2
