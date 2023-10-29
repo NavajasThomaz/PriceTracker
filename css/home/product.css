@@ -6,14 +6,20 @@
 }
 
 .graph>img {
-    max-width: 30rem;
-    max-height: 20rem;
+    width: 20rem;
+    height: 13rem;
+}
+
+.carousel-item {
+    max-width: 350px;
 }
 
 .carousel-item>img {
     padding: 0 46px;
     width: 346px;
     height: 300px;
+    max-width: 346px;
+    max-height: 300px;
 }
 
 .product {

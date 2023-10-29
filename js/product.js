@@ -1,6 +1,6 @@
 const productContainers = document.querySelectorAll('.carousel')
 
-function fetchAndPopulateData(container, jsonFile) {
+function fetchAndPopulateData(container, jsonFile, key) {
   fetch(jsonFile)
     .then((response) => {
       if (!response.ok) {
@@ -15,17 +15,27 @@ function fetchAndPopulateData(container, jsonFile) {
         const img = box.querySelector('img')
         const productTitle = box.querySelector('.product-info a')
         const productPrice = box.querySelector('.product-info h3')
-        const productData = data[keys[0]]
+        const productData = data[keys[key]]
         if (productData && index < 5) {
-          const imgLink = productData[index + 1].Imagem
-          imgValida(imgLink, function (validacao) {
-            if (validacao) {
-              img.src = imgLink
-            } else {
-              img.src = '../img/image_not_found.jpg'
-            }
-          })
-          productTitle.textContent = productData[index + 1].Nome
+          if (productData[index + 1].Imagem) {
+            const imgLink = productData[index + 1].Imagem
+            imgValida(imgLink, function (validacao) {
+              if (validacao) {
+                img.src = imgLink
+              } else {
+                img.src = '../img/image_not_found.jpg'
+              }
+            })
+          } else {
+            img.src = '../img/image_not_found.jpg'
+          }
+          const nome = productData[index + 1].Nome
+
+          const nomeComEspacoInicial = nome.replace(/([A-Z])(?![A-Z])/g, ' $1')
+
+          const nomeComEspacoFinal = nomeComEspacoInicial.replace(/,/g, ', ')
+
+          productTitle.textContent = nomeComEspacoFinal
           productTitle.href = productData[index + 1].Link
           productPrice.textContent = productData[index + 1].Historico[1]
         }
@@ -35,10 +45,6 @@ function fetchAndPopulateData(container, jsonFile) {
       console.error(error)
     })
 }
-
-fetchAndPopulateData(productContainers[0], '../data/produtosTerabyte.json')
-fetchAndPopulateData(productContainers[1], '../data/produtosKabum.json')
-fetchAndPopulateData(productContainers[2], '../data/produtosPichau.json')
 
 function imgValida(url, callback) {
   let img = new Image()
@@ -50,3 +56,23 @@ function imgValida(url, callback) {
   }
   img.src = url
 }
+
+function setupDataForHTML(htmlIndex) {
+  fetchAndPopulateData(
+    productContainers[0],
+    '../data/produtosTerabyte.json',
+    htmlIndex
+  )
+  fetchAndPopulateData(
+    productContainers[1],
+    '../data/produtosKabum.json',
+    htmlIndex
+  )
+  fetchAndPopulateData(
+    productContainers[2],
+    '../data/produtosPichau.json',
+    htmlIndex
+  )
+}
+
+export { setupDataForHTML }

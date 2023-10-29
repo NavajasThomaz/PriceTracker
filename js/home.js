@@ -28,4 +28,4 @@ function fetchCardData(path) {
     })
 }
 
-export { fetchCardData }
+fetchCardData('./data/produtosTERABYTE.json')
