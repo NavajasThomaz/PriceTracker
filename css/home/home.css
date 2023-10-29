@@ -1,13 +1,14 @@
-.home-bg{
+.home-bg {
     background-color: var(--cor-2);
 }
 
 .home {
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.home-item{
+.home-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,12 +19,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25)
 }
 
-.home-item > img {
+.home-item>img {
     width: 15rem;
     height: 15rem;
 }
 
-.home-item > h2{
+.home-item>h2 {
     text-transform: uppercase;
     padding: 1rem 0;
     cursor: pointer;
@@ -54,17 +55,17 @@
     cursor: pointer;
 }
 
-@media(max-width: 1400px){
-    .home{
+@media(max-width: 1400px) {
+    .home {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media(max-width: 1000px){
-    .home{
+@media(max-width: 1000px) {
+    .home {
         display: grid;
-        grid-template-columns: repeat(1, 1fr); 
+        grid-template-columns: repeat(1, 1fr);
         max-width: 700px;
     }
 }

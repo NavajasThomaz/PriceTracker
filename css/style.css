@@ -8,4 +8,7 @@
 @import './global/header.css';
 
 /* página principal */
-@import './home/home.css'
+@import './home/home.css';
+
+/* página produtos */
+@import './home/product.css'
