@@ -1,0 +1,40 @@
+.graph {
+    background-color: var(--cor-5);
+    padding: 20px;
+    border: 1px solid var(--cor-3);
+    border-radius: 10px;
+}
+
+.graph>img {
+    max-width: 30rem;
+    max-height: 20rem;
+}
+
+.carousel-item>img {
+    padding: 0 46px;
+    width: 346px;
+    height: 300px;
+}
+
+.product {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product>section {
+    padding: 1rem 3rem;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-info>a {
+    text-align: center;
+    height: 70px;
+    overflow: hidden;
+}

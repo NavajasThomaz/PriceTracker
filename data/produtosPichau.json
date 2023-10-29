@@ -1,0 +1,214 @@
+{
+    "Placadevideo": {},
+    "Placamae": {},
+    "Processador": {
+        "1": {
+            "Nome": "ProcessadorAMDAthlon3000G,2-Core,4-Threads,3.5GHz,Cache5MB,AM4,YD3000C6FHSBX",
+            "Preco": "R$587,06",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/y/d/yd3000c6fhsbx.jpg",
+            "Link": "https://www.pichau.com.br//processador-amd-athlon-3000g-2-core-4-threads-3-5ghz-cache-5mb-am4-yd3000c6fhsbx",
+            "Historico": [
+                "2023-10-29 ",
+                "R$587,06"
+            ]
+        },
+        "2": {
+            "Nome": "ProcessadorIntelPentiumGoldG7400,2-Core,4-Threads,3.7GHz,Cache6MB,LGA1700,BX80715G7400",
+            "Preco": "R$822,35",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/b/x/bx80715g74002_1.jpg",
+            "Link": "https://www.pichau.com.br//processador-intel-pentium-gold-g7400-2-core-4-threads-3-7ghz-cache-6mb-lga1700-bx80715g7400",
+            "Historico": [
+                "2023-10-29 ",
+                "R$822,35"
+            ]
+        },
+        "3": {
+            "Nome": "ProcessadorIntelCoreI5-13400,10-Core,16-Threads,2.5GHz(4.6GHz),Cache20MB,LGA1700,BX8071513400",
+            "Preco": "R$2.351,77",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/b/x/bx8071513400.jpg",
+            "Link": "https://www.pichau.com.br//processador-intel-core-i5-13400-10-core-16-threads-2-5ghz-4-6ghz-cache-20mb-lga1700-bx8071513400",
+            "Historico": [
+                "2023-10-29 ",
+                "R$2.351,77"
+            ]
+        },
+        "4": {
+            "Nome": "ProcessadorIntelCorei5-10600KF,6-Core,12-Threads,4.1GHz(4.8GHzTurbo),Cache12MB,LGA1200,BX8070110600KF",
+            "Preco": "R$1.952,83",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/b/x/bx8070110600kf1.jpg",
+            "Link": "https://www.pichau.com.br//processador-intel-core-i5-10600kf-6-core-12-threads-4-1ghz-4-8ghz-turbo-cache-12mb-lga1200-bx8070110600kf",
+            "Historico": [
+                "2023-10-29 ",
+                "R$1.952,83"
+            ]
+        },
+        "5": {
+            "Nome": "ProcessadorIntelCorei5-10400F,6-Core,12-Threads,2.9Ghz(4.3GhzTurbo),Cache12MB,LGA1200,BX8070110400F",
+            "Preco": "R$1.350,47",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/b/x/bx8070110400f_1.jpg",
+            "Link": "https://www.pichau.com.br//processador-intel-core-i5-10400f-6-core-12-threads-2-9ghz-4-3ghz-turbo-cache-12mb-lga1200-bx8070110400f",
+            "Historico": [
+                "2023-10-29 ",
+                "R$1.350,47"
+            ]
+        }
+    },
+    "Memoriaram": {},
+    "Watercooler": {
+        "1": {
+            "Nome": "WaterCoolerCoolerMasterMasterliquidML120LV2,MLW-D12M-A18PK-R2",
+            "Preco": "R$376,35",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/m/l/mlw-d12m-a18pk-r2_1.jpg",
+            "Link": "https://www.pichau.com.br//water-cooler-cooler-master-masterliquid-ml120l-v2-mlw-d12m-a18pk-r2",
+            "Historico": [
+                "2023-10-29 ",
+                "R$376,35"
+            ]
+        },
+        "2": {
+            "Nome": "WaterCoolerCoolerMasterMasterLiquidPL240Flux,ARGB,240mm,Branco,MLY-D24M-A23PZ-RW",
+            "Preco": "R$1.411,65",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/m/l/mly-d24m-a23pz-rw.jpg",
+            "Link": "https://www.pichau.com.br//water-cooler-cooler-master-masterliquid-pl240-flux-argb-240mm-branco-mly-d24m-a23pz-rw",
+            "Historico": [
+                "2023-10-29 ",
+                "R$1.411,65"
+            ]
+        },
+        "3": {
+            "Nome": "WaterCoolerCoolerMasterMasterLiquidML240LV2,MLW-D24M-A18PK-R2",
+            "Preco": "R$588,12",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/m/l/mlw-d24m-a18pk-r2.jpg",
+            "Link": "https://www.pichau.com.br//water-cooler-cooler-master-masterliquid-ml240l-v2-mlw-d24m-a18pk-r2",
+            "Historico": [
+                "2023-10-29 ",
+                "R$588,12"
+            ]
+        },
+        "4": {
+            "Nome": "WaterCoolerCoolerMasterMasterliquidML280Mirror,ARGB,280mm,MLX-D28M-A14PK-R1",
+            "Preco": "R$699,90</",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/m/l/mlx-d28m-a14pk-r1.jpg",
+            "Link": "https://www.pichau.com.br//water-cooler-cooler-master-masterliquid-ml280-mirror-argb-280mm-mlx-d28m-a14pk-r1",
+            "Historico": [
+                "2023-10-29 ",
+                "R$699,90</"
+            ]
+        },
+        "5": {
+            "Nome": "WaterCoolerCoolerMasterMasterliquidML240RRGB,MLX-D24M-A20PC-R1",
+            "Preco": "R$999,88",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/m/l/mlx-d24m-a20pc-r13.jpg",
+            "Link": "https://www.pichau.com.br//water-cooler-cooler-master-masterliquid-ml240r-rgb-mlx-d24m-a20pc-r1",
+            "Historico": [
+                "2023-10-29 ",
+                "R$999,88"
+            ]
+        }
+    },
+    "Fonte": {
+        "1": {
+            "Nome": "nteAerocoolVX-500500W,EN57136",
+            "Preco": "R$247,05",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/e/n/en5713623121.jpg",
+            "Link": "https://www.pichau.com.br//fonte-aerocool-vx-500-500w-en57136",
+            "Historico": [
+                "2023-10-29 ",
+                "R$247,05"
+            ]
+        },
+        "2": {
+            "Nome": "nteFortrekCrusader,500W,Preta,76955",
+            "Preco": "R$188,12",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/7/6/769551458.jpg",
+            "Link": "https://www.pichau.com.br//fonte-fortrek-crusader-500w-preta-76955",
+            "Historico": [
+                "2023-10-29 ",
+                "R$188,12"
+            ]
+        },
+        "3": {
+            "Nome": "nteAerocoolVXSeries350W,VX-350",
+            "Preco": "R$188,12",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/v/x/vx-3501_1.jpg",
+            "Link": "https://www.pichau.com.br//fonte-aerocool-vx-series-350w-vx-350",
+            "Historico": [
+                "2023-10-29 ",
+                "R$188,12"
+            ]
+        },
+        "4": {
+            "Nome": "nteAigoWarriorAK500,500W,WARRIORAK500",
+            "Preco": "R$317,53",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/w/a/warrior-ak5001.jpg",
+            "Link": "https://www.pichau.com.br/",
+            "Historico": [
+                "2023-10-29 ",
+                "R$317,53"
+            ]
+        },
+        "5": {
+            "Nome": "nteThermaltakeSmart700W80PlusWhite,SPD-0700P",
+            "Preco": "R$658,81",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/s/p/spd-0700p3.jpg",
+            "Link": "https://www.pichau.com.br//fonte-thermaltake-smart-700w-80plus-white-spd-0700p",
+            "Historico": [
+                "2023-10-29 ",
+                "R$658,81"
+            ]
+        }
+    },
+    "SSD": {
+        "1": {
+            "Nome": "SSDPcyesPY128,128GB,2.5,SataIII6GB/s,Leitura550MB/s,Gravacao400MB/s,SSD25PY128",
+            "Preco": "R$94,00",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/s/s/ssd25py128.jpg",
+            "Link": "https://www.pichau.com.br/d-spacing-xs-3",
+            "Historico": [
+                "2023-10-29 ",
+                "R$94,00"
+            ]
+        },
+        "2": {
+            "Nome": "SSDPNYCS900,8TB,2.5,SataIII6GB/s,Leitura560MB/s,Gravacao540MB/s,SSD7CS900-8TB-RB",
+            "Preco": "R$7.499,90</",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/s/s/ssd7cs900-8tb-rb2.jpg",
+            "Link": "https://www.pichau.com.br//ssd-pny-cs900-8tb-2-5-sata-iii-6gb-s-leitura-560-mb-s-gravacao-540-mb-s-ssd7cs900-8tb-rb",
+            "Historico": [
+                "2023-10-29 ",
+                "R$7.499,90</"
+            ]
+        },
+        "3": {
+            "Nome": "SSDHikvisionC100,240GB,2.5,SataIII6GB/s,Leitura550MB/s,Gravacao450MB/s,HS-SSD-C100-240G",
+            "Preco": "R$176,35",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/h/s/hs-ssd-c100-240g1525.jpg",
+            "Link": "https://www.pichau.com.br/",
+            "Historico": [
+                "2023-10-29 ",
+                "R$176,35"
+            ]
+        },
+        "4": {
+            "Nome": "ComputadorPichauGamer,Inteli5-12400F,GeForceRTX306012GB,32GBDDR5,SSDM.21TB+SSDM.2480GB",
+            "Preco": "R$9.176,77</",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/p/o/pouter-intel-rtx-gtx-001_1_5.jpg",
+            "Link": "https://www.pichau.com.br/\"jss67",
+            "Historico": [
+                "2023-10-29 ",
+                "R$9.176,77</"
+            ]
+        },
+        "5": {
+            "Nome": "SSDCrucialMX5002TB2.5\"3DNAND,CT2000MX500SSD1",
+            "Preco": "R$1.665,80",
+            "Imagem": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/c/t/ct2000mx500ssd1.jpg",
+            "Link": "https://www.pichau.com.br//ssd-crucial-mx500-2000gb-sata-6gb-s-ct2000mx500ssd1",
+            "Historico": [
+                "2023-10-29 ",
+                "R$1.665,80"
+            ]
+        }
+    },
+    "Monitor": {}
+}

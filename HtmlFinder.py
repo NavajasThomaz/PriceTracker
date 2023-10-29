@@ -61,7 +61,7 @@ def terabyteJson():
                         break
 
     produtos_json = json.dumps(prod_list)
-    with open(f"bd\produtosTERABYTE.json", "w") as arquivo_json:
+    with open(f"data\produtosTerabyte.json", "w") as arquivo_json:
         arquivo_json.write(produtos_json)
 
 
@@ -132,7 +132,7 @@ def pichauJson():
 
 
     produtos_json = json.dumps(prod_list)
-    with open(f"bd\produtosPICHAU.json", "r+") as arquivo_json:
+    with open(f"data\produtosPichau.json", "w") as arquivo_json:
         arquivo_json.write(produtos_json)
 
 
@@ -170,7 +170,6 @@ def kabumJson():
         for k in range(0, len(result)):
             if result[k] == '<div id="listingBreadcrumbs" class="sc-1f1372c4-0 bmoswX">':
                 if result[k+3] == '<div>':
-                    print(result[k+9])
                     if str(result[k+9][-9:]) == "(VGA)</a>":
                         item = unicodedata.normalize('NFD', result[k + 9][:-10].replace(' ', '')).encode('ascii','ignore').decode('utf-8')
                     else:
@@ -181,11 +180,10 @@ def kabumJson():
                             item = "Watercooler"
                         if item == "ntes":
                             item = "Fonte"
-                    print(item)
-                else:
-                    print("AQUI"+result[k+3])
             if result[k][0:4] == "<img":
                 img = result[k].split()[2][5:-7]
+                if img[0:4] == "data":
+                    img = ""
             elif result[k][0:4] == "<spa":
                 line = result[k].split()
                 if len(line) > 4 and line[2] == 'class="sc-d79c9c3f-0':
@@ -193,13 +191,14 @@ def kabumJson():
                     link = "https://www.kabum.com.br" + result[k - 6].split()[1][6:-1]
                     preco = "R$" + result[k+9][8:-7]
                     hist = [str(datetime.datetime.now())[0:10], preco]
+                    """
                     print(nome)
                     print(img)
                     print(link)
                     print(preco)
                     print(hist)
                     print()
-
+                    """
 
 
                     prod_list[item][count] = {
@@ -210,6 +209,9 @@ def kabumJson():
                         break
 
     produtos_json = json.dumps(prod_list)
-    with open(f"bd\produtosKabum.json", "w") as arquivo_json:
+    with open(f"data\produtosKabum.json", "w") as arquivo_json:
         arquivo_json.write(produtos_json)
+
+pichauJson()
+terabyteJson()
 kabumJson()

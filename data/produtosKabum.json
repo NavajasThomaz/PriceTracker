@@ -1,0 +1,214 @@
+{
+    "Placadevideo": {
+        "1": {
+            "Nome": "Placa de Video RX 6750 XT MECH 2X 12G V1 Radeon, 12GB GDDR6, FreeSync, Dual Fan",
+            "Preco": "R$2.099,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/475438/placa-de-video-rx-6750-xt-mech-2x-12g-v1-radeon-12gb-gddr6-freesync-dual-fan",
+            "Historico": [
+                "2023-10-29",
+                "R$2.099,99"
+            ]
+        },
+        "2": {
+            "Nome": "Placa de Video RX 6600 CLD 8G ASRock AMD Radeon, 8GB, GDDR6  - 90-GA2RZZ-00UANF",
+            "Preco": "R$1.219,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/235984/placa-de-video-rx-6600-cld-8g-asrock-amd-radeon-8gb-gddr6-90-ga2rzz-00uanf",
+            "Historico": [
+                "2023-10-29",
+                "R$1.219,99"
+            ]
+        },
+        "3": {
+            "Nome": "Placa de Video RTX 3060 Asus Dual O12G V2 NVIDIA GeForce, 12GB GDDR6, LHR, DLSS, Ray Tracing - DUAL-RTX3060-O12G-V2",
+            "Preco": "R$2.099,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/164854/placa-de-video-rtx-3060-asus-dual-o12g-v2-nvidia-geforce-12gb-gddr6-lhr-dlss-ray-tracing-dual-rtx3060-o12g-v2",
+            "Historico": [
+                "2023-10-29",
+                "R$2.099,99"
+            ]
+        },
+        "4": {
+            "Nome": "Placa de Video RTX 3060 Ventus 2X MSI NVIDIA GeForce,  12GB GDDR6, DLSS, Ray Tracing - RTX 3060 Ventus 2X 12G OC",
+            "Preco": "R$2.368,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/384627/placa-de-video-rtx-3060-ventus-2x-msi-nvidia-geforce-12gb-gddr6-dlss-ray-tracing-rtx-3060-ventus-2x-12g-oc",
+            "Historico": [
+                "2023-10-29",
+                "R$2.368,99"
+            ]
+        },
+        "5": {
+            "Nome": "Placa de Video RTX 3060 TI Ventus 3X 8GD6X OC MSI NVIDIA GeForce, 8GB GDDR6X, DLSS, Ray Tracing, G-Sync",
+            "Preco": "R$2.199,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/477363/placa-de-video-rtx-3060-ti-ventus-3x-8gd6x-oc-msi-nvidia-geforce-8gb-gddr6x-dlss-ray-tracing-g-sync",
+            "Historico": [
+                "2023-10-29",
+                "R$2.199,99"
+            ]
+        }
+    },
+    "Placamae": {},
+    "Processador": {
+        "1": {
+            "Nome": "Processador Intel Core i5-12400F, 2.5GHz (4.4GHz Max Turbo), Cache 18MB, LGA 1700 - BX8071512400F",
+            "Preco": "R$928,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/283718/processador-intel-core-i5-12400f-2-5ghz-4-4ghz-max-turbo-cache-18mb-lga-1700-bx8071512400f",
+            "Historico": [
+                "2023-10-29",
+                "R$928,99"
+            ]
+        },
+        "2": {
+            "Nome": "Processador AMD Ryzen 7 5700X, 3.4GHz (4.6GHz Max Turbo), Cache 36MB, AM4, Sem Video - 100-100000926WOF",
+            "Preco": "R$1.248,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br",
+            "Historico": [
+                "2023-10-29",
+                "R$1.248,99"
+            ]
+        },
+        "3": {
+            "Nome": "Processador AMD Ryzen 5 4600G, 3.7GHz (4.2GHz Max Turbo), Cache 11MB, AM4, Video Integrado - 100-100000147BOX",
+            "Preco": "R$1.256,71",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br",
+            "Historico": [
+                "2023-10-29",
+                "R$1.256,71"
+            ]
+        },
+        "4": {
+            "Nome": "Processador AMD Ryzen 5 5600, 3.5GHz (4.4GHz Max Turbo), Cache 35MB, AM4, Sem Video - 100-100000927BOX",
+            "Preco": "R$889,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br",
+            "Historico": [
+                "2023-10-29",
+                "R$889,99"
+            ]
+        },
+        "5": {
+            "Nome": "Processador AMD Ryzen 5 5600G, 3.9GHz, Cache 16MB, Hexa Core, 12 Threads, AM4, Vi\\xaddeo Integrado - 100-100000252BOX",
+            "Preco": "R$803,85",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/203464/processador-amd-ryzen-5-5600g-3-9ghz-cache-16mb-hexa-core-12-threads-am4-vi-deo-integrado-100-100000252box",
+            "Historico": [
+                "2023-10-29",
+                "R$803,85"
+            ]
+        }
+    },
+    "Memoriaram": {},
+    "Watercooler": {
+        "1": {
+            "Nome": "Water Cooler Gamer Rise Mode, ARGB, Intel e AMD, 240mm, Preto - RM-WCB-04-ARGB",
+            "Preco": "R$239,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/248205/water-cooler-gamer-rise-mode-argb-intel-e-amd-240mm-preto-rm-wcb-04-argb",
+            "Historico": [
+                "2023-10-29",
+                "R$239,99"
+            ]
+        },
+        "2": {
+            "Nome": "Water Cooler Rise Mode Gamer Black, RGB, 240mm, Preto - RM-WCB-02-RGB",
+            "Preco": "R$229,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/130043/water-cooler-rise-mode-gamer-black-rgb-240mm-preto-rm-wcb-02-rgb",
+            "Historico": [
+                "2023-10-29",
+                "R$229,99"
+            ]
+        },
+        "3": {
+            "Nome": "Water Cooler Rise Mode, 360mm, AMD/Intel, RGB, 12V, 2000RPM, Preto - RM-WCB-03-RGB",
+            "Preco": "R$329,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/190145/water-cooler-rise-mode-360mm-amd-intel-rgb-12v-2000rpm-preto-rm-wcb-03-rgb",
+            "Historico": [
+                "2023-10-29",
+                "R$329,99"
+            ]
+        },
+        "4": {
+            "Nome": "Water Cooler Rise Mode RGB, 120mm, AMD/Intel, Preto - RM-WCB-01-RGB",
+            "Preco": "R$189,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br",
+            "Historico": [
+                "2023-10-29",
+                "R$189,99"
+            ]
+        },
+        "5": {
+            "Nome": "Water Cooler Rise Mode Frost, RGB, 360mm, Branco - RM-WCF-04-RGB",
+            "Preco": "R$339,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/114642/water-cooler-rise-mode-frost-rgb-360mm-branco-rm-wcf-04-rgb",
+            "Historico": [
+                "2023-10-29",
+                "R$339,99"
+            ]
+        }
+    },
+    "Fonte": {
+        "1": {
+            "Nome": "nte MSI MAG A650BN, ATX, 650W, 80 PLUS Bronze, PFC Ativo, Entrada Bivolt, Preto - 306-7ZP2B22-CE0",
+            "Preco": "R$319,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br",
+            "Historico": [
+                "2023-10-29",
+                "R$319,99"
+            ]
+        },
+        "2": {
+            "Nome": "nte Gamemax, 600W, 80 Plus White, PFC Ativo, Bivolt, Preto - GS600",
+            "Preco": "R$259,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/368437/fonte-gamemax-600w-80-plus-white-pfc-ativo-bivolt-preto-gs600",
+            "Historico": [
+                "2023-10-29",
+                "R$259,99"
+            ]
+        },
+        "3": {
+            "Nome": "nte Gamemax GP750, 750W, 80 Plus Bronze, PFC Ativo, Bivolt, com Cabo, Preto - GP750",
+            "Preco": "R$324,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/377090/fonte-gamemax-gp750-750w-80-plus-bronze-pfc-ativo-bivolt-com-cabo-preto-gp750",
+            "Historico": [
+                "2023-10-29",
+                "R$324,99"
+            ]
+        },
+        "4": {
+            "Nome": "nte XPG Core Reactor, 850W, 80 Plus Gold Modular",
+            "Preco": "R$729,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/103282/fonte-xpg-core-reactor-850w-80-plus-gold-modular",
+            "Historico": [
+                "2023-10-29",
+                "R$729,99"
+            ]
+        },
+        "5": {
+            "Nome": "nte Corsair CV750 750W, 80 Plus Bronze - CP-9020237-BR",
+            "Preco": "R$679,99",
+            "Imagem": "",
+            "Link": "https://www.kabum.com.br/produto/154547/fonte-corsair-cv750-750w-80-plus-bronze-cp-9020237-br",
+            "Historico": [
+                "2023-10-29",
+                "R$679,99"
+            ]
+        }
+    },
+    "SSD": {},
+    "Monitor": {}
+}

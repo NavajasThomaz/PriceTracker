@@ -1,0 +1,14 @@
+/* utilidades */
+@import './utilidades/cores.css';
+@import './utilidades/tipografia.css';
+@import './utilidades/componentes.css';
+
+/* código comum p/ mais de uma página */
+@import './global/global.css';
+@import './global/header.css';
+
+/* página principal */
+@import './home/home.css';
+
+/* página produtos */
+@import './home/product.css'

@@ -1,0 +1,31 @@
+.header-bg{
+    background-color: var(--cor-1);
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.75rem 0;
+}
+
+.logo {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header-menu a {
+    margin: 0 1rem;
+}
+
+@media(max-width: 500px){
+    .header > h1 {
+        display: none;
+    }
+}
