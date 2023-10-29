@@ -1,6 +1,4 @@
 const card = document.querySelectorAll('.home-item')
-// const infoBoxes = document.querySelectorAll('.info-box')
-// const closeButtons = document.querySelectorAll('.close-button')
 const product = document.querySelectorAll('.product-item')
 
 function fetchCardData(path) {
@@ -31,21 +29,3 @@ function fetchCardData(path) {
 }
 
 export { fetchCardData }
-
-// const h3 = section.querySelector('h3')
-// h3.textContent = key
-
-// product.forEach((element, index) => {
-//   element.addEventListener('click', () => {
-//     infoBoxes.forEach((box) => {
-//       box.classList.remove('show')
-//     })
-//     infoBoxes[index].classList.add('show')
-//   })
-// })
-
-// closeButtons.forEach((button, index) => {
-//   button.addEventListener('click', () => {
-//     infoBoxes[index].classList.remove('show')
-//   })
-// })

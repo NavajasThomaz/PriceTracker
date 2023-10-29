@@ -17,7 +17,14 @@ function fetchAndPopulateData(container, jsonFile) {
         const productPrice = box.querySelector('.product-info h3')
         const productData = data[keys[0]]
         if (productData && index < 5) {
-          img.src = productData[index + 1].Imagem
+          const imgLink = productData[index + 1].Imagem
+          imgValida(imgLink, function (validacao) {
+            if (validacao) {
+              img.src = imgLink
+            } else {
+              img.src = '../img/image_not_found.jpg'
+            }
+          })
           productTitle.textContent = productData[index + 1].Nome
           productTitle.href = productData[index + 1].Link
           productPrice.textContent = productData[index + 1].Historico[1]
@@ -29,6 +36,17 @@ function fetchAndPopulateData(container, jsonFile) {
     })
 }
 
-fetchAndPopulateData(productContainers[0], './data/produtosTERABYTE.json')
-fetchAndPopulateData(productContainers[1], './data/produtosKABUMTESTE.json')
-fetchAndPopulateData(productContainers[2], './data/produtosPiCHAUTESTE.json')
+fetchAndPopulateData(productContainers[0], '../data/produtosTERABYTE.json')
+fetchAndPopulateData(productContainers[1], '../data/produtosKABUMTESTE.json')
+fetchAndPopulateData(productContainers[2], '../data/produtosPiCHAUTESTE.json')
+
+function imgValida(url, callback) {
+  let img = new Image()
+  img.onload = function () {
+    callback(true)
+  }
+  img.onerror = function () {
+    callback(false)
+  }
+  img.src = url
+}
