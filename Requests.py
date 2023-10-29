@@ -1,70 +1,92 @@
 from zenrows import ZenRowsClient
+import HtmlFinder
 import bd
+import requests
+import json
 
 lista_produtos = []
 for produto in bd.Produtos:
     lista_produtos.append(bd.Produtos[produto]["titulo"])
 
 print(lista_produtos)
+
+
 # Funções de chamada da API
 def terabyte(lista_produtos):
-    client = ZenRowsClient("023c5b438407dc890018789c2e5671632af20ae0")
     url = "https://www.terabyteshop.com.br/busca?str="
-    params = {"js_render":"true","antibot":"true"}
+    prod_dict = []
 
-    response1 = client.get(url+lista_produtos[0], params=params)
-    print("1")
-    response2 = client.get(url+lista_produtos[1], params=params)
-    print("2")
-    response3 = client.get(url+lista_produtos[2], params=params)
-    print("3 ...")
-    response4 = client.get(url+lista_produtos[3], params=params)
-    response5 = client.get(url+lista_produtos[4], params=params)
-    response6 = client.get(url+lista_produtos[5], params=params)
-    response7 = client.get(url+lista_produtos[6], params=params)
-    print("... 7")
-    response8 = client.get(url+lista_produtos[7], params=params)
-    print("8")
+    params = {'api_key': 'BUILBW095PICODZ2EOBMN4NB4EPERMZLVFZ1CLADUITMZRKZL3RG0R988483OMDX8K2NJ8YI9W65VG69'}
 
-    bd = open('bd\produtos.txt', "w")
-    bd.write(f"{[response1.text]}, {[response2.text]}, {[response3.text]}, {[response4.text]}, {[response5.text]}, {[response6.text]}, {[response7.text]}, {[response8.text]}")
-    bd.close()
+    responses = []
+    for i in range(0, len(lista_produtos)):
+        params['url'] = url + lista_produtos[i].replace(" ", "%20")
+        responses.append(requests.get('https://app.scrapingbee.com/api/v1/', params=params))
+        print(responses[i].status_code)
 
-    #print(response.text)
+    for response in responses:
+        if response.status_code == 200:
+            prod_dict.append([response.text])
 
-terabyte(lista_produtos)
+    with open('bd\TerabyteHtml.txt', "w", encoding="utf-8") as bd:
+        #prod_dict = f"{[prod_dict]}, {[prod_dict]}, {[response3.text]}, {[response4.text]}, {[response5.text]}, {[response6.text]}, {[response7.text]}, {[response8.text]}"
+        prod_dict = str(prod_dict)[2:-2]
+        bd.write(str(prod_dict))
+        bd.close()
+    HtmlFinder.terabyteJson()
+
+
 
 
 def pichau(lista_produtos):
-    client = ZenRowsClient("023c5b438407dc890018789c2e5671632af20ae0")
-    url = "https://www.terabyteshop.com.br/busca?str="
-    params = {"js_render":"true","antibot":"true"}
+    url = "https://www.pichau.com.br/search?q="
+    prod_dict = []
 
-    response1 = client.get(url+lista_produtos[0], params=params)
-    response2 = client.get(url+lista_produtos[1], params=params)
-    response3 = client.get(url+lista_produtos[2], params=params)
-    response4 = client.get(url+lista_produtos[3], params=params)
-    response5 = client.get(url+lista_produtos[4], params=params)
-    response6 = client.get(url+lista_produtos[5], params=params)
-    response7 = client.get(url+lista_produtos[6], params=params)
-    response8 = client.get(url+lista_produtos[7], params=params)
+    params = {'api_key': 'BUILBW095PICODZ2EOBMN4NB4EPERMZLVFZ1CLADUITMZRKZL3RG0R988483OMDX8K2NJ8YI9W65VG69'}
 
+    responses = []
+    for i in range(0, len(lista_produtos)):
+        params['url'] = url + lista_produtos[i].replace(" ", "%20")
+        responses.append(requests.get('https://app.scrapingbee.com/api/v1/', params=params))
+        print(responses[i].status_code)
 
-    #print(response.text)
+    for response in responses:
+        if response.status_code == 200:
+            prod_dict.append([response.text])
+
+    with open('bd\PichauHtml.txt', "w", encoding="utf-8") as bd:
+        #prod_dict = f"{[prod_dict]}, {[prod_dict]}, {[response3.text]}, {[response4.text]}, {[response5.text]}, {[response6.text]}, {[response7.text]}, {[response8.text]}"
+        prod_dict = str(prod_dict)[2:-2]
+        bd.write(str(prod_dict))
+        bd.close()
+
+    #HtmlFinder.pichauJson()
 
 def kabum(lista_produtos):
-    client = ZenRowsClient("023c5b438407dc890018789c2e5671632af20ae0")
-    url = "https://www.terabyteshop.com.br/busca?str="
-    params = {"js_render":"true","antibot":"true"}
+    url = "https://www.kabum.com.br/busca/"
+    prod_dict = []
 
-    response1 = client.get(url+lista_produtos[0], params=params)
-    response2 = client.get(url+lista_produtos[1], params=params)
-    response3 = client.get(url+lista_produtos[2], params=params)
-    response4 = client.get(url+lista_produtos[3], params=params)
-    response5 = client.get(url+lista_produtos[4], params=params)
-    response6 = client.get(url+lista_produtos[5], params=params)
-    response7 = client.get(url+lista_produtos[6], params=params)
-    response8 = client.get(url+lista_produtos[7], params=params)
+    params = {'api_key': 'BUILBW095PICODZ2EOBMN4NB4EPERMZLVFZ1CLADUITMZRKZL3RG0R988483OMDX8K2NJ8YI9W65VG69'}
+
+    responses = []
+    for i in range(0, len(lista_produtos)):
+        params['url'] = url + lista_produtos[i].replace(" ", "-")
+        responses.append(requests.get('https://app.scrapingbee.com/api/v1/', params=params))
+        print(responses[i].status_code)
+
+    for response in responses:
+        if response.status_code == 200:
+            prod_dict.append([response.text])
+
+    with open('bd\KabumHtml.txt', "w", encoding="utf-8") as bd:
+        # prod_dict = f"{[prod_dict]}, {[prod_dict]}, {[response3.text]}, {[response4.text]}, {[response5.text]}, {[response6.text]}, {[response7.text]}, {[response8.text]}"
+        prod_dict = str(prod_dict)[2:-2]
+        bd.write(str(prod_dict))
+        bd.close()
+    #HtmlFinder.terabyteJson()
 
 
-    #print(response.text)
+
+
+
+kabum(lista_produtos)
