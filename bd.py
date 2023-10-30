@@ -1,3 +1,4 @@
+# Guarda os produtos a serem monitorados
 Produtos = {
     1: {
         "titulo": "Placa de video",

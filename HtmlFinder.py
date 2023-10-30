@@ -6,6 +6,7 @@ import bd as banco
 
 
 def terabyteJson():
+    #dicionario de saida formatado para ser aceito pelo front
     prod_list = {
         f"{unicodedata.normalize('NFD', banco.Produtos[1]['titulo'].replace(' ', '')).encode('ascii', 'ignore').decode('utf-8')}": {},
         f"{unicodedata.normalize('NFD', banco.Produtos[2]['titulo'].replace(' ', '')).encode('ascii', 'ignore').decode('utf-8')}": {},
@@ -36,6 +37,7 @@ def terabyteJson():
                 word = ""
 
         count = 1
+        # Scrapy
         for k in range(0, len(result)):
             if result[k][0:4] == "<img":
                 img = result[k].split()[1][5:-1]
@@ -59,13 +61,15 @@ def terabyteJson():
                     count += 1
                     if count == 6:
                         break
-
+    
+    # Salva json
     produtos_json = json.dumps(prod_list)
     with open(f"data\produtosTerabyte.json", "w") as arquivo_json:
         arquivo_json.write(produtos_json)
 
 
 def pichauJson():
+    #dicionario de saida formatado para ser aceito pelo front
     prod_list = {
         f"{unidecode(banco.Produtos[1]['titulo'].replace(' ', ''))}": {},
         f"{unidecode(banco.Produtos[2]['titulo'].replace(' ', ''))}": {},
@@ -96,6 +100,7 @@ def pichauJson():
                     result.append(word)
                 word = ""
 
+        # Scrapy
         count = 1
         for k in range(0, len(result)):
             result[k][0:7]
@@ -130,13 +135,14 @@ def pichauJson():
                 """
 
 
-
+    # salva json
     produtos_json = json.dumps(prod_list)
     with open(f"data\produtosPichau.json", "w") as arquivo_json:
         arquivo_json.write(produtos_json)
 
 
 def kabumJson():
+    #dicionario de saida formatado para ser aceito pelo front
     prod_list = {
         f"{unicodedata.normalize('NFD', banco.Produtos[1]['titulo'].replace(' ', '')).encode('ascii', 'ignore').decode('utf-8')}": {},
         f"{unicodedata.normalize('NFD', banco.Produtos[2]['titulo'].replace(' ', '')).encode('ascii', 'ignore').decode('utf-8')}": {},
@@ -166,6 +172,7 @@ def kabumJson():
                     result.append(word)
                 word = ""
 
+        # Scrapy
         count = 1
         for k in range(0, len(result)):
             if result[k] == '<div id="listingBreadcrumbs" class="sc-1f1372c4-0 bmoswX">':
@@ -207,7 +214,7 @@ def kabumJson():
                     count += 1
                     if count == 6:
                         break
-
+    # salva json                    
     produtos_json = json.dumps(prod_list)
     with open(f"data\produtosKabum.json", "w") as arquivo_json:
         arquivo_json.write(produtos_json)

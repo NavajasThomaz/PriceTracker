@@ -1,0 +1,6 @@
+version: "2"
+authtoken: 2RDjKcQnnn96HsimiWRpoM4C8bz_2NMcBx34yzrFYQroz8VaF
+tunnels:
+  laravel:
+    addr: 5500
+    proto: http
